@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/tailwind.min.css">
+    <title>Generador de claves</title>
+</head>
+<body>
+    <main>
+        <div class="contenido">
+            <div>
+                
+        <div class="nombres">
+        <h1> crea una nueva clave </h1>
+            <div class="w-full max-w-xs">
+                    
+                <div class="mb-3 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <label for="longitud" class="form-label">longitud</label>
+                    <input type="number" id="longitud" class="form-control text-center" min="4" max="31" value="4" />
+
+                    <div class="persona mt-4">
+                        <button class="
+                        font-semibold 
+                         py-2
+                         px-4  
+                         rounded generar" 
+                        onclick="mostrarClave()"
+                        >genera clave </button>
+                    </div>
+
+                </div>
+                    
+            </div>
+            <div class="">
+                <div class="w-full max-w-xs"  id="clave">
+                    <!-- aqui se muestran los datos los datos  -->
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

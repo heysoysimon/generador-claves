@@ -1,0 +1,50 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contenido{
+    width: 90%;
+}
+
+
+body{
+    background: #f2f2f2;
+}
+.generar {
+    transition-duration: 0.4s;
+    color:#fca311;
+  }
+  
+  .generar:hover {
+    background-color: #fca311; /* Green */
+    color: #f2f2f2;
+  }
+h1{
+    color: #fca311;
+}
+.creacion{
+    background: #f3d19a;
+    width: 100%;
+    padding: 20px;
+    -webkit-border-radius: 34px 34px 34px 34px;
+-moz-border-radius: 34px 34px 34px 34px;
+border-radius: 34px 34px 34px 34px;
+text-align: center;
+}
+
+.nombres{
+    text-align: center;
+    font-size: 20px;
+}
+
+.creacion img{
+    width: 20%;
+    text-align: center;
+}
+.creacion h3{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 10px;
+}
